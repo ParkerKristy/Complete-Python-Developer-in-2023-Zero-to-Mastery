@@ -92,7 +92,9 @@ print(word[::-2]) #7531
 # only way to chnage it is to create sth new
 
 word ="01234567"
-
+name = "saurabh"
+# word[0] = "g" 
+# the above statement gives error.
 word = word + "100"
 
 print(word)
