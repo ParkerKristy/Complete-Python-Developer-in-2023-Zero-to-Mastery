@@ -61,6 +61,24 @@ print("Hi {0}. You are {1} years old.".format(name, age))
 
 print("Hi {new_name}. You are {age} years old.".format(new_name = "Sally", age = 44))
 
+#EXERCISE String formatting
+
+# 1 What would be the output of the below 4 print statements? 
+#Try to answer these before you click RUN!
+
+print("Hello {}, your balance is {}.".format("Cindy", 50))
+
+print("Hello {0}, your balance is {1}.".format("Cindy", 50))
+
+print("Hello {name}, your balance is {amount}.".format(name="Cindy", amount=50))
+
+print("Hello {0}, your balance is {amount}.".format("Cindy", amount=50))
+
+# 2 How would you write this using f-string?
+name = "Cindy"
+amount = 50
+print(f"Hello {name}, your balance is {amount}.")
+
 
 # String indexes
 
@@ -98,3 +116,18 @@ name = "saurabh"
 word = word + "100"
 
 print(word)
+
+
+#EXERCISE String indexes
+
+python = 'I am PYHTON'
+
+print(python[1:4])  
+print(python[1:])
+print(python[:])
+print(python[1:100])
+print(python[-1])
+print(python[-4])
+print(python[:-3])
+print(python[-3:])
+print(python[::-1])
